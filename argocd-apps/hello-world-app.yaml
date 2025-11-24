@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/CloudDevops/practice-argo.git
+    repoURL: https://github.com/CloudDevops/hello-world-app.git
     targetRevision: main
-    path: hello-world
+    path: .
   destination:
     server: https://kubernetes.default.svc
     namespace: default
